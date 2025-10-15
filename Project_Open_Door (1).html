@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Open Door</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-zP1kR7PfP1S7I4c3ZvG6wA0yMGK9kXoPNCwVfU3QfjwF3tqxU+ok3i+K++mI+Oo4r7/yYp8FZV4D1X62/8QK5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Montserrat', sans-serif; }
+    body { background-color: #f4f4f4; color: #222; line-height: 1.7; scroll-behavior: smooth; }
+    a { text-decoration: none; color: inherit; }
+    h1,h2,h3,h4 { color: #111; }
+    section { padding: 80px 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .btn { display: inline-block; padding: 12px 25px; background-color: #ff4c4c; color: #fff; font-weight: bold; border-radius: 8px; transition: 0.3s; }
+    .btn:hover { background-color: #e03e3e; transform: translateY(-2px); }
+    nav { background-color: #111; padding: 15px 20px; position: sticky; top:0; z-index:100; display:flex; justify-content:space-between; align-items:center; }
+    nav .logo { color: #fff; font-weight: bold; font-size: 26px; }
+    nav ul { list-style: none; display: flex; }
+    nav ul li { margin-left: 25px; }
+    nav ul li a { color: #fff; font-weight: 600; transition: 0.3s; }
+    nav ul li a:hover { color: #ff4c4c; }
+    .hero { background: url('https://images.unsplash.com/photo-1606761567535-0f6aa27005b9?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat; color: #fff; text-align:center; padding: 180px 20px; }
+    .hero h1 { font-size: 50px; margin-bottom: 20px; text-shadow: 2px 2px 10px rgba(0,0,0,0.6); }
+    .hero p { font-size: 22px; margin-bottom: 30px; text-shadow: 1px 1px 8px rgba(0,0,0,0.6); }
+    .section-title { font-size: 42px; margin-bottom: 30px; text-align:center; color: #ff4c4c; text-transform: uppercase; letter-spacing: 1px; }
+    .content-box { background-color: #fff; border-radius: 15px; padding: 35px; margin-bottom: 50px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+    .columns { display: flex; flex-wrap: wrap; gap: 25px; margin-top: 30px; }
+    .column { flex:1; min-width: 280px; background-color: #ffecec; border-radius: 12px; padding: 25px; box-shadow: 0 6px 15px rgba(0,0,0,0.08); transition: transform 0.3s; }
+    .column:hover { transform: translateY(-5px); }
+    .column h4 { color: #ff4c4c; margin-bottom: 15px; display:flex; align-items:center; gap:10px; }
+    .tier { background-color: #ffecec; border-radius: 15px; padding: 25px; text-align:center; margin-bottom:25px; box-shadow: 0 6px 15px rgba(0,0,0,0.08); transition: transform 0.3s; }
+    .tier:hover { transform: translateY(-5px); }
+    .tier h3 { color: #ff4c4c; margin-bottom:15px; }
+    footer { background-color:#111; color:#fff; text-align:center; padding:30px 20px; }
+    footer a { color:#ff4c4c; }
+    footer a:hover { text-decoration: underline; }
+    img.icon { width: 50px; height: 50px; margin-right: 10px; }
+    @media(max-width:768px){
+        nav ul { flex-direction: column; align-items:center; }
+        nav ul li { margin:12px 0; }
+        .columns { flex-direction: column; }
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">Project Open Door</div>
+    <ul>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#bio">Founder</a></li>
+        <li><a href="#policy">Policy Reform</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#fundraising">Fundraising</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Unlocking Voices, Creating Change</h1>
+    <p>Every foster youth deserves to be seen, heard, and given a chance to thrive.</p>
+    <a href="https://gofund.me/a5d0c7be2" target="_blank" class="btn"><i class="fas fa-hand-holding-heart"></i> Donate Now</a>
+</section>
+
+<section id="mission" class="container">
+    <h2 class="section-title"><i class="fas fa-bullseye"></i> Our Mission</h2>
+    <div class="content-box">
+        <p>Project Open Door is a nonprofit organization committed to reforming the foster care system and empowering both current and former foster youth. Our mission is to open doors of opportunity, support, and advocacy for those who have experienced foster care. Through community programs, resources, and storytelling, we amplify foster youth voices, raise awareness about systemic challenges, and work to create lasting change. Our goal is to spread awareness for the atrocities occurring in the foster care system. Through community events, social media campaigns, and constant work, we will not let current and former foster youth voices be lost in the noise. At Project Open Door, every young person deserves to be seen, heard, and given a chance to thrive. Join us in unlocking brighter futures, one door at a time.</p>
+    </div>
+</section>
+
+<section id="bio" class="container">
+    <h2 class="section-title"><i class="fas fa-user"></i> Founder Bio</h2>
+    <div class="content-box">
+        <p>Hi. My name is Alex Wiseman. I’m 19 years old, and what I carry with me every day isn’t just trauma and bruises—it’s a story of survival, heartbreak, and unshakable faith. To understand who I am, you have to go back to the beginning...</p>
+        <p>Now I stand here, a young man shaped by trauma but rooted in purpose. I carry diagnoses like PTSD not as a label, but as proof that I’ve survived what others wouldn’t have. With The Open Door Project, we will constantly push for urgent policy reform within the foster care system.</p>
+    </div>
+</section>
+
+<section id="policy" class="container">
+    <h2 class="section-title"><i class="fas fa-gavel"></i> Policy Reform</h2>
+    <div class="content-box">
+        <p>At Project Open Door, we believe that no child should ever feel forgotten, silenced, or disposable. The foster care system was meant to protect, not to break — yet too often, it fails to provide the stability, love, and opportunity every young person deserves.</p>
+        <h3>Proposed Reformation</h3>
+        <div class="columns">
+            <div class="column">
+                <h4><i class="fas fa-search"></i> Transparency & Accountability</h4>
+                <ul>
+                    <li>Mandate independent oversight boards for child welfare agencies.</li>
+                    <li>Require public annual reports on foster care outcomes.</li>
+                    <li>Enforce strict limits on caseworker caseloads.</li>
+                    <li>Implement a Foster Youth Bill of Rights with a grievance system.</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4><i class="fas fa-users"></i> Youth Voice & Representation</h4>
+                <ul>
+                    <li>Establish Youth Advisory Councils in every state.</li>
+                    <li>Guarantee foster youth a seat at legislative discussions.</li>
+                    <li>Create paid youth advocate positions.</li>
+                    <li>Appoint former foster youth to oversee foster care systems.</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4><i class="fas fa-graduation-cap"></i> Education & Career Support</h4>
+                <ul>
+                    <li>Expand college tuition waivers and trade school access.</li>
+                    <li>Provide financial literacy, life skills, and employment programs.</li>
+                    <li>Offer year-round housing stipends for college students.</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4><i class="fas fa-heart"></i> Mental Health & Support</h4>
+                <ul>
+                    <li>Require free trauma-informed therapy for all foster youth.</li>
+                    <li>Provide grief and loss counseling.</li>
+                    <li>Train foster parents and staff in trauma-informed care.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="volunteer" class="container">
+    <h2 class="section-title"><i class="fas fa-handshake"></i> Volunteer with Us</h2>
+    <div class="content-box">
+        <p>One voice can start a movement, but it takes millions to enact real change. Join Project Open Door as a volunteer and help amplify foster youth voices, run community events, and push for policy reform.</p>
+        <ul>
+            <li>Email: <a href="mailto:founder.theopendoorproject@outlook.com">founder.theopendoorproject@outlook.com</a></li>
+            <li>Phone: (606) 670-5265</li>
+        </ul>
+    </div>
+</section>
+
+<section id="stories" class="container">
+    <h2 class="section-title"><i class="fas fa-book-open"></i> Lost Voices Found</h2>
+    <div class="content-box">
+        <p>This is where we share the voices of foster care youth lost by the system. We accept submissions via email or phone to ensure every story is heard.</p>
+        <ul>
+            <li>Email: <a href="mailto:founder.theopendoorproject@outlook.com">founder.theopendoorproject@outlook.com</a></li>
+            <li>Phone: (606) 670-5265</li>
+        </ul>
+    </div>
+</section>
+
+<section id="fundraising" class="container">
+    <h2 class="section-title"><i class="fas fa-donate"></i> Voices Unlocked Fundraiser</h2>
+    <div class="content-box">
+        <p>Support foster youth storytelling initiatives, giving them a platform to share their experiences. Every donation, no matter the size, makes a difference. Click below to donate directly via our GoFundMe page:</p>
+        <div class="columns">
+            <div class="column tier">
+                <h3>$25</h3>
+                <p>Supports one foster youth in sharing their story.</p>
+                <a href="https://gofund.me/a5d0c7be2" target="_blank" class="btn">
+                    <i class="fas fa-hand-holding-heart"></i> Donate $25
+                </a>
+            </div>
+            <div class="column tier">
+                <h3>$50</h3>
+                <p>Provides supplies or recording materials for a storytelling session.</p>
+                <a href="https://gofund.me/a5d0c7be2" target="_blank" class="btn">
+                    <i class="fas fa-hand-holding-heart"></i> Donate $50
+                </a>
+            </div>
+            <div class="column tier">
+                <h3>$100</h3>
+                <p>Funds editing and publishing of one professional story/video.</p>
+                <a href="https://gofund.me/a5d0c7be2" target="_blank" class="btn">
+                    <i class="fas fa-hand-holding-heart"></i> Donate $100
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Project Open Door. All Rights Reserved.</p>
+    <p>Contact: <a href="mailto:founder.theopendoorproject@outlook.com">founder.theopendoorproject@outlook.com</a> | (606) 670-5265</p>
+</footer>
+
+</body>
+</html>
